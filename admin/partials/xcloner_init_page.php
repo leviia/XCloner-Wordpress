@@ -76,7 +76,7 @@ if ($requirements->check_backup_ready_status()) {
 
 <!-- This file should primarily consist of HTML with a little bit of PHP. -->
 <div class="row dashboard">
-    <div class="col s12 m12 l7">
+    <div class="col s12 m12 l12">
 
         <div class="">
 
@@ -171,7 +171,7 @@ if ($requirements->check_backup_ready_status()) {
                 <li class="active">
                     <div class="collapsible-header active">
                         <i
-                            class="material-icons">bug_report</i><?php echo __('XCloner Debugger', 'xcloner-backup-and-restore') ?>
+                            class="material-icons">bug_report</i><?php echo __('Leviia Debugger', 'xcloner-backup-and-restore') ?>
                         <div class="right">
                             <a href="#<?php echo $logger_basename = basename($logger->get_main_logger_url()) ?>"
                                 class="download-logger" title="<?php echo $logger_basename ?>">
@@ -202,7 +202,7 @@ if ($requirements->check_backup_ready_status()) {
 
 
     </div>
-    <div class="col s12 m12 l5">
+    <div style="display:none;">
 
         <div class="card blue-grey darken-1 z-depth-4 backup-ready">
             <div class="card-content white-text">

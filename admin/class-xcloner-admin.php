@@ -129,7 +129,7 @@ class Xcloner_Admin {
 		wp_enqueue_script($this->plugin_name."_jquery.datatables", plugin_dir_url(__FILE__).'js/jquery.dataTables.min.js', array('jquery'), $this->version, false);
 		wp_enqueue_script($this->plugin_name."_jquery.datatables.respnsive", plugin_dir_url(__FILE__).'js/dataTables.responsive.js', array('jquery'), $this->version, false);
 		wp_enqueue_script($this->plugin_name."_vakata", dirname(plugin_dir_url(__FILE__)).'/vendor/vakata/jstree/dist/jstree.min.js', array('jquery'), '3.3', false);
-		
+
 		wp_enqueue_script($this->plugin_name, dirname(plugin_dir_url(__FILE__)).'/dist/admin/js/index.min.js', array('jquery'), $this->version, false);
 
 		/*wp_enqueue_script($this->plugin_name."_backup-class", dirname(plugin_dir_url(__FILE__)).'/dist/admin/js/xcloner_backup_class.min.js', array('jquery'), $this->version, false);
@@ -249,16 +249,13 @@ class Xcloner_Admin {
 			<div class="col s12 l9">
         		<?php include_once(__DIR__ . "/partials/xcloner_header.php")?>
 			</div>
-			
+
 			<ul class="nav-tab-wrapper col s12 ">
 				<li><a href="?page=xcloner_settings_page&tab=general_options"
 					class="nav-tab col s12 m3 l3 <?php echo $active_tab == 'general_options' ? 'nav-tab-active' : ''; ?>"><?php echo __('General Options', 'xcloner-backup-and-restore') ?></a>
 				</li>
 				<li><a href="?page=xcloner_settings_page&tab=mysql_options"
 					class="nav-tab col s12 m3 l3 <?php echo $active_tab == 'mysql_options' ? 'nav-tab-active' : ''; ?>"><?php echo __('Mysql Options', 'xcloner-backup-and-restore') ?></a>
-				</li>
-				<li><a href="?page=xcloner_settings_page&tab=system_options"
-					class="nav-tab col s12 m3 l3 <?php echo $active_tab == 'system_options' ? 'nav-tab-active' : ''; ?>"><?php echo __('System Options', 'xcloner-backup-and-restore') ?></a>
 				</li>
 			</ul>
 

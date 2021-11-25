@@ -44,7 +44,7 @@ msgid "Cron Options"
 msgstr ""
 
 #: admin/partials/xcloner_console_page.php:16
-msgid "XCloner Debugger Dashboard"
+msgid "Leviia Debugger Dashboard"
 msgstr ""
 
 #: admin/partials/xcloner_generate_backups_page.php:13
@@ -618,7 +618,7 @@ msgid "Excluding %s from the filesystem list, matching pattern %s"
 msgstr ""
 
 #: includes/class-xcloner-loader.php:59
-msgid "Site Backup"
+msgid "Leviia Backup"
 msgstr ""
 
 #: includes/class-xcloner-loader.php:64
@@ -709,7 +709,7 @@ msgid "Location where XCloner will store the Backup archives."
 msgstr ""
 
 #: includes/class-xcloner-settings.php:290
-msgid "Enable XCloner Backup Log"
+msgid "Enable Leviia Backup Log"
 msgstr ""
 
 #: includes/class-xcloner-settings.php:303

@@ -59,7 +59,7 @@ $backup_list = $xcloner_file_system->get_latest_backups();
                     <div class="input-field col l9 s12">
                         <input value="<?php echo (is_ssl()) ? "https://" : "" ?>" autocomplete="false"
                             id="restore_script_url" type="text" class="validate"
-                            placeholder="Url to XCloner Restore Script, example http://myddns.com/xcloner/xcloner_restore.php">
+                            placeholder="Url to Leviia Restore Script, example http://myddns.com/xcloner/xcloner_restore.php">
                         <label for="restore_script_url"></label>
                         <div id="url_validation_status" class="status"></div>
                     </div>
@@ -141,7 +141,7 @@ $backup_list = $xcloner_file_system->get_latest_backups();
                         <div class="input-field row">
                             <div class="col s12">
                                 <a class="btn-floating tooltipped btn-small right" data-html="true" data-position="left"
-                                    data-delay="50" data-tooltip="<?php echo __("This is the directory where you would like to restore the backup archive files.<br /> 
+                                    data-delay="50" data-tooltip="<?php echo __("This is the directory where you would like to restore the backup archive files.<br />
 										Please use this with caution when restoring to a live site.", 'xcloner-backup-and-restore') ?>"><i
                                         class="material-icons">help_outline</i>
                                 </a>

@@ -9,6 +9,8 @@
 {"option_name":"xcloner_disable_email_notification","option_value":"1"},
 {"option_name":"xcloner_enable_log","option_value":"1"},
 {"option_name":"xcloner_enable_mysql_backup","option_value":"1"},
+{"option_name":"xcloner_backup_only_wp_tables","option_value":"1"},
+{"option_name":"xcloner_webdav_enable","option_value":"1"},
 {"option_name":"xcloner_enable_pre_update_backup","option_value":""},
 {"option_name":"xcloner_encryption_key","option_value":"FMo5vh6NCTo8zcmTsrzV88nnHj6BdoHGOAK"},
 {"option_name":"xcloner_standalone_api_key","option_value":""},

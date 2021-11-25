@@ -513,7 +513,7 @@ class Xcloner extends watchfulli\XClonerCore\Xcloner
             $this->xcloner_remote_storage = new Xcloner_Remote_Storage($this);
             $this->xcloner_file_transfer 	= new Xcloner_File_Transfer($this);
             $this->xcloner_encryption    	= new Xcloner_Encryption($this);
-                
+
             $xcloner_api = new Xcloner_Api($this);
             $this->xcloner_api   = $xcloner_api;
 
@@ -558,7 +558,7 @@ class Xcloner extends watchfulli\XClonerCore\Xcloner
         if (!get_option('xcloner_onedrive_enable', 0)) {
             return false;
         }
-        
+
         $onedrive_expire_in  = get_option('xcloner_onedrive_expires_in');
         $onedrive_refresh_token = get_option('xcloner_onedrive_refresh_token');
 
@@ -599,7 +599,7 @@ class Xcloner extends watchfulli\XClonerCore\Xcloner
                     update_option('xcloner_onedrive_access_token', $response['access_token']);
                     update_option('xcloner_onedrive_refresh_token', $response['refresh_token']);
                     update_option('xcloner_onedrive_expires_in', time()+$response['expires_in']);
-                    
+
                     if (!$is_refresh) {
                         $this->trigger_message(
                             sprintf(__('OneDrive successfully authenticated, please click <a href="%s">here</a> to continue', 'xcloner-backup-and-restore'), get_admin_url()."admin.php?page=xcloner_remote_storage_page#onedrive"),
@@ -678,8 +678,8 @@ class Xcloner extends watchfulli\XClonerCore\Xcloner
     {
         if (function_exists('add_menu_page')) {
             add_menu_page(
-                __('Site Backup', 'xcloner-backup-and-restore'),
-                __('Site Backup', 'xcloner-backup-and-restore'),
+                __('Leviia Backup', 'xcloner-backup-and-restore'),
+                __('Leviia Backup', 'xcloner-backup-and-restore'),
                 'manage_options',
                 'xcloner_init_page',
                 array($this, 'xcloner_display'),

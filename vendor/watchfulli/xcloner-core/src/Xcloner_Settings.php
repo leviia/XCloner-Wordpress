@@ -34,10 +34,10 @@ class Xcloner_Settings
         }
     }
 
-    /** 
+    /**
      * Restore default XCloner settings by deleting all existing values
      */
-    public function restore_defaults() {    
+    public function restore_defaults() {
         global $wpdb;
 
         return $wpdb->query( "DELETE FROM {$wpdb->prefix}options WHERE option_name LIKE 'xcloner_%'" );
@@ -302,7 +302,7 @@ class Xcloner_Settings
 
         return $data;
     }
-    
+
     /**
      * Get Database Username
      *
@@ -451,19 +451,19 @@ class Xcloner_Settings
             $this->xcloner_sanitization,
             "sanitize_input_as_int"
         ));
-        add_settings_field(
-            'xcloner_backup_compression_level',
-            __('Backup Compression Level', 'xcloner-backup-and-restore'),
-            array($this, 'do_form_range_field'),
-            'xcloner_settings_page',
-            'xcloner_general_settings_group',
-            array(
-                'xcloner_backup_compression_level',
-                __('Options between [0-9]. Value 0 means no compression, while 9 is maximum compression affecting cpu load', 'xcloner-backup-and-restore'),
-                0,
-                9
-            )
-        );
+        // add_settings_field(
+        //     'xcloner_backup_compression_level',
+        //     __('Backup Compression Level', 'xcloner-backup-and-restore'),
+        //     array($this, 'do_form_range_field'),
+        //     'xcloner_settings_page',
+        //     'xcloner_general_settings_group',
+        //     array(
+        //         'xcloner_backup_compression_level',
+        //         __('Options between [0-9]. Value 0 means no compression, while 9 is maximum compression affecting cpu load', 'xcloner-backup-and-restore'),
+        //         0,
+        //         9
+        //     )
+        // );
 
         /*register_setting('xcloner_general_settings_group', 'xcloner_start_path', array(
             $this->xcloner_sanitization,
@@ -526,7 +526,7 @@ class Xcloner_Settings
         ));
         add_settings_field(
             'xcloner_enable_log',
-            __('Enable XCloner Backup Log', 'xcloner-backup-and-restore'),
+            __('Enable Leviia Backup Log', 'xcloner-backup-and-restore'),
             array($this, 'do_form_switch_field'),
             'xcloner_settings_page',
             'xcloner_general_settings_group',
@@ -575,30 +575,30 @@ class Xcloner_Settings
             $this->xcloner_sanitization,
             "sanitize_input_as_int"
         ));
-        add_settings_field(
-            'xcloner_enable_mysql_backup',
-            __('Enable Mysql Backup', 'xcloner-backup-and-restore'),
-            array($this, 'do_form_switch_field'),
-            'xcloner_mysql_settings_page',
-            'xcloner_mysql_settings_group',
-            array(
-                'xcloner_enable_mysql_backup',
-                __('Enable Mysql Backup Option. If you don\'t want to backup the database, you can disable this.', 'xcloner-backup-and-restore')
-            )
-        );
+        // add_settings_field(
+        //     'xcloner_enable_mysql_backup',
+        //     __('Enable Mysql Backup', 'xcloner-backup-and-restore'),
+        //     array($this, 'do_form_switch_field'),
+        //     'xcloner_mysql_settings_page',
+        //     'xcloner_mysql_settings_group',
+        //     array(
+        //         'xcloner_enable_mysql_backup',
+        //         __('Enable Mysql Backup Option. If you don\'t want to backup the database, you can disable this.', 'xcloner-backup-and-restore')
+        //     )
+        // );
 
         register_setting('xcloner_mysql_settings_group', 'xcloner_backup_only_wp_tables');
-        add_settings_field(
-            'xcloner_backup_only_wp_tables',
-            __('Backup only WP tables', 'xcloner-backup-and-restore'),
-            array($this, 'do_form_switch_field'),
-            'xcloner_mysql_settings_page',
-            'xcloner_mysql_settings_group',
-            array(
-                'xcloner_backup_only_wp_tables',
-                sprintf(__('Enable this if you only want to Backup only tables starting with \'%s\' prefix', 'xcloner-backup-and-restore'), $this->get_table_prefix())
-            )
-        );
+        // add_settings_field(
+        //     'xcloner_backup_only_wp_tables',
+        //     __('Backup only WP tables', 'xcloner-backup-and-restore'),
+        //     array($this, 'do_form_switch_field'),
+        //     'xcloner_mysql_settings_page',
+        //     'xcloner_mysql_settings_group',
+        //     array(
+        //         'xcloner_backup_only_wp_tables',
+        //         sprintf(__('Enable this if you only want to Backup only tables starting with \'%s\' prefix', 'xcloner-backup-and-restore'), $this->get_table_prefix())
+        //     )
+        // );
 
         register_setting('xcloner_mysql_settings_group', 'xcloner_mysql_hostname', array(
             $this->xcloner_sanitization,
@@ -614,7 +614,7 @@ class Xcloner_Settings
                 'xcloner_mysql_hostname',
                 __('Wordpress mysql hostname', 'xcloner-backup-and-restore'),
                 $this->get_db_hostname(),
-                //'disabled'
+                'disabled'
             )
         );
 
@@ -632,10 +632,10 @@ class Xcloner_Settings
                 'xcloner_mysql_username',
                 __('Wordpress mysql username', 'xcloner-backup-and-restore'),
                 $this->get_db_username(),
-                //'disabled'
+                'disabled'
             )
         );
-        
+
         register_setting('xcloner_mysql_settings_group', 'xcloner_mysql_password', array(
             $this->xcloner_sanitization,
             "sanitize_input_as_raw"
@@ -650,7 +650,7 @@ class Xcloner_Settings
                 'xcloner_mysql_password',
                 __('Wordpress mysql password', 'xcloner-backup-and-restore'),
                 $this->get_db_password(),
-                //'disabled'
+                'disabled'
             )
         );
 
@@ -668,10 +668,10 @@ class Xcloner_Settings
                 'xcloner_mysql_database',
                 __('Wordpress mysql database', 'xcloner-backup-and-restore'),
                 $this->get_db_database(),
-                //'disabled'
+                'disabled'
             )
         );
-        
+
         register_setting('xcloner_mysql_settings_group', 'xcloner_mysql_prefix', array(
             $this->xcloner_sanitization,
             "sanitize_input_as_raw"
@@ -686,7 +686,7 @@ class Xcloner_Settings
                 'xcloner_mysql_prefix',
                 __('Wordpress mysql tables prefix', 'xcloner-backup-and-restore'),
                 $this->get_table_prefix(),
-                //'disabled'
+                'disabled'
             )
         );
 
@@ -993,7 +993,7 @@ class Xcloner_Settings
 
 		<?php
     }
-    
+
     /**
      * Password field UI
      *

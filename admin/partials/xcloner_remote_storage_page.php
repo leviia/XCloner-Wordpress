@@ -90,57 +90,10 @@ $common_cleanup_html = ob_get_contents();
         </div>
         <div class="col s12 m12 l10">
             <ul class="collapsible popout" data-collapsible="accordion">
-
-                <!-- LOCAL STORAGE-->
-                <li id="local">
-                    <?php include_once(__DIR__ ."/remote_storage/local.php") ?>
-                </li>
-
-                <!-- AWS STORAGE-->
-                <li id="aws">
-                    <?php include_once(__DIR__ ."/remote_storage/aws.php") ?>
-                </li>
-
-                <!-- AZURE STORAGE-->
-                <li id="azure">
-                    <?php include_once(__DIR__ ."/remote_storage/azure.php") ?>
-                </li>
-
-                <!-- BACKBLAZE STORAGE-->
-                <li id="backblaze">
-                    <?php include_once(__DIR__ ."/remote_storage/backblaze.php") ?>
-                </li>
-
-                <!-- DROPBOX STORAGE-->
-                <li id="dropbox">
-                    <?php include_once(__DIR__ ."/remote_storage/dropbox.php") ?>
-                </li>
-
-                <!-- FTP STORAGE-->
-                <li id="ftp">
-                    <?php include_once(__DIR__ ."/remote_storage/ftp.php") ?>
-                </li>
-
-                <!-- Google DRIVE STORAGE-->
-                <li id="gdrive">
-                    <?php include_once(__DIR__ ."/remote_storage/gdrive.php") ?>
-                </li>
-
-                <!-- SFTP STORAGE-->
-                <li id="sftp">
-                    <?php include_once(__DIR__ ."/remote_storage/sftp.php") ?>
-                </li>
-
-                <!-- ONEDRIVE STORAGE-->
-                <li id="onedrive">
-                    <?php include_once(__DIR__ ."/remote_storage/onedrive.php") ?>
-                </li>
-
                 <!-- WEBDAV STORAGE-->
-                <li id="webdav">
+                <li id="webdav" class="active">
                     <?php include_once(__DIR__ ."/remote_storage/webdav.php") ?>
                 </li>
-
             </ul>
         </div>
     </div>
