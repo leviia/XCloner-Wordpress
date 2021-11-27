@@ -14,7 +14,7 @@
  * @wordpress-plugin
  * Plugin Name:       Leviia Backup and Restore
  * Plugin URI:        https://leviia.com/
- * Description:       Leviia is a tool that will help you manage your website backups, generate/restore/move so your website will be always secured! With XCloner you will be able to clone your site to any other location with just a few clicks, as well as transfer the backup archives to remote Leviia accounts.
+ * Description:       Leviia (Based on XCloner) is a tool that will help you manage your website backups, generate/restore/move so your website will be always secured! With XCloner you will be able to clone your site to any other location with just a few clicks, as well as transfer the backup archives to remote Leviia accounts.
  * Version:           4.2.163
  * Author:            Leviia
  * Author URI:        https://leviia.com/

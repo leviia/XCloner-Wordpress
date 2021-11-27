@@ -1,0 +1,1390 @@
+# Copyright (C) 2021 Leviia
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Leviia Backup and Restore 4.2.163\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/XCloner-"
+"Wordpress\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-11-26T15:22:33+00:00\n"
+"PO-Revision-Date: 2021-11-27 15:12+0100\n"
+"X-Generator: Poedit 3.0\n"
+"X-Domain: xcloner-backup-and-restore\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: fr_FR\n"
+
+#. Plugin Name of the plugin
+msgid "Leviia Backup and Restore"
+msgstr "Sauvegarde et Restoration Leviia"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://leviia.com/"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Leviia (Based on XCloner) is a tool that will help you manage your website "
+"backups, generate/restore/move so your website will be always secured! With "
+"XCloner you will be able to clone your site to any other location with just "
+"a few clicks, as well as transfer the backup archives to remote Leviia "
+"accounts."
+msgstr ""
+"Leviia (basée sur XCloner) est un outil qui vous aidera à gérer les "
+"sauvegardes et restaurations de votre site web afin que ce dernier soit "
+"toujours en sécurité ! Avec ce plugin, vous serez capable de cloner votre "
+"site à n'importe quel autre endroit en quelques clics, mais aussi de "
+"transférer les archives vers vos comptes Leviia."
+
+#. Author of the plugin
+msgid "Leviia"
+msgstr ""
+
+#: admin/class-xcloner-admin.php:255
+msgid "General Options"
+msgstr "Options générales"
+
+#: admin/class-xcloner-admin.php:258
+msgid "Mysql Options"
+msgstr "Options Mysql"
+
+#: admin/partials/remote_storage/aws.php:8
+msgid "Amazon S3 Storage"
+msgstr ""
+
+#: admin/partials/remote_storage/aws.php:35
+#: admin/partials/remote_storage/aws.php:38
+msgid "S3 Key"
+msgstr ""
+
+#: admin/partials/remote_storage/aws.php:46
+#: admin/partials/remote_storage/aws.php:49
+msgid "S3 Secret"
+msgstr ""
+
+#: admin/partials/remote_storage/aws.php:57
+msgid "S3 Region"
+msgstr ""
+
+#: admin/partials/remote_storage/aws.php:60
+msgid "example: us-east-1"
+msgstr ""
+
+#: admin/partials/remote_storage/aws.php:83
+msgid "S3 EndPoint"
+msgstr ""
+
+#: admin/partials/remote_storage/aws.php:87
+msgid ""
+"S3 EndPoint, leave blank if you want to use the default Amazon AWS Service"
+msgstr ""
+
+#: admin/partials/remote_storage/aws.php:94
+msgid "S3 Custom Region"
+msgstr ""
+
+#: admin/partials/remote_storage/aws.php:97
+msgid "S3 Custom Region, ex: af-south-1"
+msgstr ""
+
+#: admin/partials/remote_storage/aws.php:106
+#: admin/partials/remote_storage/aws.php:109
+msgid "S3 Bucket Name"
+msgstr ""
+
+#: admin/partials/remote_storage/aws.php:117
+msgid "S3 Prefix"
+msgstr ""
+
+#: admin/partials/remote_storage/aws.php:121
+msgid "S3 Prefix, use / ending to define a folder"
+msgstr ""
+
+#: admin/partials/remote_storage/aws.php:132
+#: admin/partials/remote_storage/azure.php:72
+#: admin/partials/remote_storage/backblaze.php:76
+#: admin/partials/remote_storage/dropbox.php:74
+#: admin/partials/remote_storage/ftp.php:132
+#: admin/partials/remote_storage/gdrive.php:129
+#: admin/partials/remote_storage/local.php:47
+#: admin/partials/remote_storage/onedrive.php:86
+#: admin/partials/remote_storage/sftp.php:102
+#: admin/partials/remote_storage/webdav.php:87
+msgid "Save Settings"
+msgstr "Sauvegarder les paramètres"
+
+#: admin/partials/remote_storage/aws.php:138
+#: admin/partials/remote_storage/azure.php:78
+#: admin/partials/remote_storage/backblaze.php:83
+#: admin/partials/remote_storage/dropbox.php:80
+#: admin/partials/remote_storage/ftp.php:138
+#: admin/partials/remote_storage/gdrive.php:135
+#: admin/partials/remote_storage/local.php:53
+#: admin/partials/remote_storage/onedrive.php:92
+#: admin/partials/remote_storage/sftp.php:109
+#: admin/partials/remote_storage/webdav.php:94
+msgid "Verify"
+msgstr "Vérifier"
+
+#: admin/partials/remote_storage/azure.php:8
+msgid "Azure Blob Storage"
+msgstr ""
+
+#: admin/partials/remote_storage/azure.php:28
+msgid "Visit %s and get your \"Api Key\"."
+msgstr ""
+
+#: admin/partials/remote_storage/azure.php:35
+#: admin/partials/remote_storage/azure.php:38
+msgid "Azure Account Name"
+msgstr ""
+
+#: admin/partials/remote_storage/azure.php:47
+#: admin/partials/remote_storage/azure.php:50
+msgid "Azure Api Key"
+msgstr ""
+
+#: admin/partials/remote_storage/azure.php:58
+#: admin/partials/remote_storage/azure.php:61
+msgid "Azure Container"
+msgstr ""
+
+#: admin/partials/remote_storage/backblaze.php:8
+msgid "Backblaze B2 Storage"
+msgstr ""
+
+#: admin/partials/remote_storage/backblaze.php:28
+msgid "Visit %s and get your KeyID and  applicationKey."
+msgstr ""
+
+#: admin/partials/remote_storage/backblaze.php:36
+#: admin/partials/remote_storage/backblaze.php:39
+msgid "Backblaze KeyID"
+msgstr ""
+
+#: admin/partials/remote_storage/backblaze.php:49
+#: admin/partials/remote_storage/backblaze.php:52
+msgid "Backblaze applicationKey"
+msgstr ""
+
+#: admin/partials/remote_storage/backblaze.php:62
+#: admin/partials/remote_storage/backblaze.php:65
+msgid "Backblaze Bucket Name"
+msgstr ""
+
+#: admin/partials/remote_storage/dropbox.php:8
+msgid "Dropbox Storage"
+msgstr ""
+
+#: admin/partials/remote_storage/dropbox.php:36
+#: admin/partials/remote_storage/dropbox.php:39
+msgid "Dropbox Access Token"
+msgstr ""
+
+#: admin/partials/remote_storage/dropbox.php:48
+#: admin/partials/remote_storage/dropbox.php:51
+msgid "Dropbox App Secret"
+msgstr ""
+
+#: admin/partials/remote_storage/dropbox.php:60
+#: admin/partials/remote_storage/dropbox.php:63
+msgid "Dropbox Prefix"
+msgstr ""
+
+#: admin/partials/remote_storage/ftp.php:8
+msgid "FTP Storage"
+msgstr ""
+
+#: admin/partials/remote_storage/ftp.php:23
+#: admin/partials/remote_storage/ftp.php:26
+msgid "Ftp Hostname"
+msgstr ""
+
+#: admin/partials/remote_storage/ftp.php:31
+msgid "Ftp Port"
+msgstr ""
+
+#: admin/partials/remote_storage/ftp.php:38
+#: admin/partials/remote_storage/ftp.php:41
+msgid "Ftp Username"
+msgstr ""
+
+#: admin/partials/remote_storage/ftp.php:50
+#: admin/partials/remote_storage/ftp.php:53
+msgid "Ftp Password"
+msgstr ""
+
+#: admin/partials/remote_storage/ftp.php:61
+#: admin/partials/remote_storage/ftp.php:64
+msgid "Ftp Storage Folder"
+msgstr ""
+
+#: admin/partials/remote_storage/ftp.php:72
+msgid "Ftp Transfer Mode"
+msgstr ""
+
+#: admin/partials/remote_storage/ftp.php:80
+msgid "Passive"
+msgstr ""
+
+#: admin/partials/remote_storage/ftp.php:88
+msgid "Active"
+msgstr ""
+
+#: admin/partials/remote_storage/ftp.php:96
+msgid "Ftp Secure Connection"
+msgstr ""
+
+#: admin/partials/remote_storage/ftp.php:104
+msgid "Disable"
+msgstr ""
+
+#: admin/partials/remote_storage/ftp.php:111
+msgid "Enable"
+msgstr ""
+
+#: admin/partials/remote_storage/ftp.php:118
+#: admin/partials/remote_storage/ftp.php:121
+msgid "Ftp Timeout"
+msgstr ""
+
+#: admin/partials/remote_storage/gdrive.php:8
+msgid "Google Drive Storage"
+msgstr ""
+
+#: admin/partials/remote_storage/gdrive.php:32
+msgid ""
+"Click the Google Sign-in button below to complete the 1-time integration. If "
+"you would like to create your own custom app, please visit %s to create a "
+"new application and get your Client ID and Client Secret and enter it below. "
+msgstr ""
+
+#: admin/partials/remote_storage/gdrive.php:35
+msgid ""
+"Click here to view a short video explaining how to create the Client ID and "
+"Client Secret as well as connecting XCloner with the Google Drive API %s"
+msgstr ""
+
+#: admin/partials/remote_storage/gdrive.php:51
+msgid "Authorize Google Drive"
+msgstr ""
+
+#: admin/partials/remote_storage/gdrive.php:54
+msgid "Paste Authorization Code Here"
+msgstr ""
+
+#: admin/partials/remote_storage/gdrive.php:60
+msgid "Client ID"
+msgstr ""
+
+#: admin/partials/remote_storage/gdrive.php:64
+msgid "Leave blank unless you wish to set up Google Drive integration manually"
+msgstr ""
+
+#: admin/partials/remote_storage/gdrive.php:73
+msgid "Client Secret"
+msgstr ""
+
+#: admin/partials/remote_storage/gdrive.php:76
+msgid "Google Client Secret"
+msgstr ""
+
+#: admin/partials/remote_storage/gdrive.php:84
+msgid "Folder ID or Root Path"
+msgstr ""
+
+#: admin/partials/remote_storage/gdrive.php:86
+msgid ""
+"Folder ID can be found by right clicking on the folder name and selecting "
+"'Get shareable link' menu, format https://drive.google.com/open?"
+"id={FOLDER_ID}<br />\n"
+"\t\t\t\t\t\t\t\t\tIf you supply a folder name, it has to exists in the drive "
+"root and start with / , example /backups.xcloner.com/"
+msgstr ""
+
+#: admin/partials/remote_storage/gdrive.php:93
+msgid "Target Folder ID or Root Path"
+msgstr ""
+
+#: admin/partials/remote_storage/gdrive.php:104
+msgid "Automatically Empty Trash?"
+msgstr ""
+
+#: admin/partials/remote_storage/gdrive.php:112
+msgid "Disabled"
+msgstr ""
+
+#: admin/partials/remote_storage/gdrive.php:120
+msgid "Enabled"
+msgstr ""
+
+#: admin/partials/remote_storage/gdrive.php:154
+msgid "Install Now"
+msgstr ""
+
+#: admin/partials/remote_storage/gdrive.php:163
+msgid "More Details"
+msgstr ""
+
+#: admin/partials/remote_storage/local.php:8
+msgid "Local Storage"
+msgstr ""
+
+#: admin/partials/remote_storage/local.php:22
+#: admin/partials/remote_storage/local.php:25
+#: admin/partials/xcloner_init_page.php:213
+msgid "Backup Start Location"
+msgstr ""
+
+#: admin/partials/remote_storage/local.php:33
+#: admin/partials/remote_storage/local.php:36
+#: admin/partials/xcloner_init_page.php:218
+msgid "Backup Storage Location"
+msgstr ""
+
+#: admin/partials/remote_storage/onedrive.php:8
+msgid "OneDrive Storage"
+msgstr ""
+
+#: admin/partials/remote_storage/onedrive.php:28
+msgid ""
+"Visit <a href=\"%s\" target=\"_blank\">Microsoft Azure App Registrations</a> "
+"and get your Client ID and Client Secret. More details on setting up the "
+"code flow authentication can be found <a href=\"%s\">here</a>. \n"
+"                                    Make sure to also add the %s to the "
+"Authentication->Redirect URIs area"
+msgstr ""
+
+#: admin/partials/remote_storage/onedrive.php:36
+#: admin/partials/remote_storage/onedrive.php:39
+msgid "OneDrive Client ID"
+msgstr ""
+
+#: admin/partials/remote_storage/onedrive.php:48
+#: admin/partials/remote_storage/onedrive.php:51
+msgid "OneDrive Client Secret"
+msgstr ""
+
+#: admin/partials/remote_storage/onedrive.php:65
+msgid "Authorize OneDrive"
+msgstr ""
+
+#: admin/partials/remote_storage/onedrive.php:72
+msgid "OneDrive Storage Folder"
+msgstr ""
+
+#: admin/partials/remote_storage/onedrive.php:75
+msgid "OneDrive Storage Folder Path"
+msgstr ""
+
+#: admin/partials/remote_storage/sftp.php:8
+msgid "SFTP Storage"
+msgstr ""
+
+#: admin/partials/remote_storage/sftp.php:24
+#: admin/partials/remote_storage/sftp.php:27
+msgid "SFTP Hostname"
+msgstr ""
+
+#: admin/partials/remote_storage/sftp.php:32
+msgid "SFTP Port"
+msgstr ""
+
+#: admin/partials/remote_storage/sftp.php:40
+#: admin/partials/remote_storage/sftp.php:43
+msgid "SFTP Username"
+msgstr ""
+
+#: admin/partials/remote_storage/sftp.php:52
+#: admin/partials/remote_storage/sftp.php:55
+msgid "SFTP or Private Key Password"
+msgstr ""
+
+#: admin/partials/remote_storage/sftp.php:64
+msgid "SFTP Private Key(RSA)"
+msgstr ""
+
+#: admin/partials/remote_storage/sftp.php:68
+msgid "Local Server Path or Contents of the SFTP Private Key RSA File"
+msgstr ""
+
+#: admin/partials/remote_storage/sftp.php:77
+#: admin/partials/remote_storage/sftp.php:80
+msgid "SFTP Storage Folder"
+msgstr ""
+
+#: admin/partials/remote_storage/sftp.php:88
+#: admin/partials/remote_storage/sftp.php:91
+msgid "SFTP Timeout"
+msgstr ""
+
+#: admin/partials/remote_storage/webdav.php:8
+msgid "Leviia Storage"
+msgstr "Stockage Leviia"
+
+#: admin/partials/remote_storage/webdav.php:36
+msgid "Leviia Base Url"
+msgstr "URL de base Leviia"
+
+#: admin/partials/remote_storage/webdav.php:39
+msgid "https://cloud.leviia.com"
+msgstr ""
+
+#: admin/partials/remote_storage/webdav.php:47
+#: admin/partials/remote_storage/webdav.php:50
+msgid "Leviia Username"
+msgstr "Identifiant Leviia"
+
+#: admin/partials/remote_storage/webdav.php:58
+#: admin/partials/remote_storage/webdav.php:61
+msgid "Leviia Password"
+msgstr "Mot de passe Leviia"
+
+#: admin/partials/remote_storage/webdav.php:71
+#: admin/partials/remote_storage/webdav.php:74
+msgid "Leviia Target Path"
+msgstr "Emplacement cible Leviia"
+
+#: admin/partials/xcloner_console_page.php:10
+msgid "Leviia Debugger Dashboard"
+msgstr "Tableau de bort de debug Leviia"
+
+#: admin/partials/xcloner_generate_backups_page.php:16
+msgid "Backup Options"
+msgstr "Options de sauvegarde"
+
+#: admin/partials/xcloner_generate_backups_page.php:20
+msgid "Database Options"
+msgstr "Options de la base de donnée"
+
+#: admin/partials/xcloner_generate_backups_page.php:24
+msgid "Files Options"
+msgstr "Options des fichiers"
+
+#: admin/partials/xcloner_generate_backups_page.php:27
+#: includes/class-xcloner.php:622
+msgid "Generate Backup"
+msgstr "Générer une sauvegarde"
+
+#: admin/partials/xcloner_generate_backups_page.php:30
+msgid "Schedule Backup"
+msgstr "Planifier une sauvegarde"
+
+#: admin/partials/xcloner_generate_backups_page.php:52
+#: admin/partials/xcloner_init_page.php:94
+#: admin/partials/xcloner_manage_backups_page.php:63
+#: admin/partials/xcloner_scheduled_backups_page.php:201
+msgid "Backup Name"
+msgstr "Nom de la sauvegarde"
+
+#: admin/partials/xcloner_generate_backups_page.php:56
+msgid "The default backup name, supported tags [time], [hostname], [domain]"
+msgstr ""
+"Le nom par défaut de la sauvegarde, les tags supportés sont [time], "
+"[hostname], [domain]"
+
+#: admin/partials/xcloner_generate_backups_page.php:67
+msgid "Send Email Notification To"
+msgstr "Envoyer un email de notification à"
+
+#: admin/partials/xcloner_generate_backups_page.php:71
+msgid "If left blank, no notification will be sent"
+msgstr "Si vide, aucune notification ne sera envoyée"
+
+#: admin/partials/xcloner_generate_backups_page.php:81
+#: admin/partials/xcloner_scheduled_backups_page.php:191
+msgid "Backup Only Files Modified/Created After"
+msgstr "Ne sauvegarder que les fichiers modifiés/créés après"
+
+#: admin/partials/xcloner_generate_backups_page.php:86
+msgid ""
+"This option allows you to create a differential backup that will include "
+"only <br> changed files since the set date, leave blank to include all files"
+msgstr ""
+"Cette option vous permet de créer des backups différentiels qui n'inclueront "
+"que les fichiers <br> changés depuis la date paramétrée, laissez vide pour "
+"inclure tous les fichiers"
+
+#: admin/partials/xcloner_generate_backups_page.php:95
+#: admin/partials/xcloner_scheduled_backups_page.php:116
+msgid "Encrypt Backup"
+msgstr "Chiffrer la sauvegarde"
+
+#: admin/partials/xcloner_generate_backups_page.php:111
+msgid "Enable this option if you want to encrypt the final backup"
+msgstr "Activer cette option si vous voulez chiffre la sauvegarde finale"
+
+#: admin/partials/xcloner_generate_backups_page.php:122
+msgid "Backup Comments"
+msgstr "Commentaires de la sauvegarde"
+
+#: admin/partials/xcloner_generate_backups_page.php:126
+msgid ""
+"Some default backup comments that will be stored inside the backup archive"
+msgstr ""
+"Des commentaires de sauvegardes par défaut qui seront inclus dans l'archive "
+"de sauvegarde"
+
+#: admin/partials/xcloner_generate_backups_page.php:137
+#: admin/partials/xcloner_scheduled_backups_page.php:150
+msgid "none"
+msgstr "rien"
+
+#: admin/partials/xcloner_generate_backups_page.php:143
+#: admin/partials/xcloner_scheduled_backups_page.php:156
+msgid "Send To Remote Storage"
+msgstr "Envoyer vers le stockage distant"
+
+#: admin/partials/xcloner_generate_backups_page.php:147
+msgid "Transfer backup to the remote storage destintion once finished."
+msgstr "Transférer la sauvegarde vers le stockage distant une fois terminée."
+
+#: admin/partials/xcloner_generate_backups_page.php:156
+msgid "Delete local copy after transfer"
+msgstr "Supprimer la copie locale après le transfert"
+
+#: admin/partials/xcloner_generate_backups_page.php:173
+msgid "Delete local backup file after transfer"
+msgstr "Supprimer la sauvegarde locale après le transfert"
+
+#: admin/partials/xcloner_generate_backups_page.php:191
+msgid "Select database data to include in the backup"
+msgstr ""
+"Selectionner les données de la base de données à inclure dans la sauvegarde"
+
+#: admin/partials/xcloner_generate_backups_page.php:193
+msgid ""
+"Enable the 'Backup only WP tables' setting if you don't want to show all "
+"other databases and tables not related to this Wordpress install"
+msgstr ""
+"Activer l'option 'Sauvegarde unique les tables WordPress' si vous ne voulez "
+"pas afficher les autres bases et tables qui ne sont pas liées à une "
+"installation WordPress"
+
+#: admin/partials/xcloner_generate_backups_page.php:215
+msgid ""
+"Select from below the files/folders you want to exclude from your Backup "
+"Archive"
+msgstr ""
+"Selectionner ci-dessous les fichiers/dossiers que vous voulez exclure de "
+"votre archive de sauvegarde"
+
+#: admin/partials/xcloner_generate_backups_page.php:219
+msgid ""
+"You can navigate below through all your site structure(Backup Start "
+"Location) to exclude any file/folder you need by clicking the checkbox near "
+"it. <br />If the checkobx is disabled, then it matches a Regex Exclude File "
+"option and it can't be unchecked"
+msgstr ""
+"Vous pouvez naviguer ci-dessous dans toute la structure de votre site "
+"(Localisation de départ de sauvegarde) pour exclure des fichiers/dossier en "
+"cliquant la case à cocher à coté. <br>Si la case à cocher est désactivée, "
+"alors c'est que ce fichier/dossier correspond à un fichier d'exclusion par "
+"Regex et qu'elle ne peut etre décochée"
+
+#: admin/partials/xcloner_generate_backups_page.php:249
+msgid "Scanning The File System..."
+msgstr "Parcours du système de fichiers..."
+
+#: admin/partials/xcloner_generate_backups_page.php:252
+msgid "Found %s files (%s)"
+msgstr "%s fichiers trouvés (%s)"
+
+#: admin/partials/xcloner_generate_backups_page.php:269
+msgid "Generating the Mysql Backup..."
+msgstr "Génération du fichier de sauvegarde Mysql..."
+
+#: admin/partials/xcloner_generate_backups_page.php:272
+msgid "Found %s tables in %s databases (%s)"
+msgstr "%s tables trouvées dans %s base de données (%s)"
+
+#: admin/partials/xcloner_generate_backups_page.php:298
+msgid "Adding Files to Archive..."
+msgstr "Ajout de fichiers à l'archive..."
+
+#: admin/partials/xcloner_generate_backups_page.php:301
+msgid "Adding %s files (%s)"
+msgstr "%s fichiers ajoutés à l'archive (%s)"
+
+#: admin/partials/xcloner_generate_backups_page.php:315
+msgid "Backup Parts"
+msgstr "Morceaux de sauvegarde"
+
+#: admin/partials/xcloner_generate_backups_page.php:327
+msgid "Encrypting Backup Data..."
+msgstr "Chiffrement des données de la sauvegarde..."
+
+#: admin/partials/xcloner_generate_backups_page.php:344
+msgid "Transferrring backup to remote storage..."
+msgstr "Transfert de la sauvegarde vers le stockage distant..."
+
+#: admin/partials/xcloner_generate_backups_page.php:361
+msgid "Backup Done"
+msgstr "Sauvegarde terminée"
+
+#: admin/partials/xcloner_generate_backups_page.php:366
+msgid "Send Backup To Remote Storage"
+msgstr "Envoyer la sauvegarde vers le stockage distant"
+
+#: admin/partials/xcloner_generate_backups_page.php:370
+msgid "Download Backup"
+msgstr "Télécharger la sauvegarde"
+
+#: admin/partials/xcloner_generate_backups_page.php:373
+msgid "List Backup Content"
+msgstr "Lister le contenu de la sauvegarde"
+
+#: admin/partials/xcloner_generate_backups_page.php:384
+#: admin/partials/xcloner_restore_page.php:476
+msgid "Thank you for using XCloner."
+msgstr "Merci d'avoir utiliser XCloner."
+
+#: admin/partials/xcloner_generate_backups_page.php:386
+#: admin/partials/xcloner_restore_page.php:477
+msgid "We would love to hear about your experience in the %s."
+msgstr "Nous adorerions entendre votre retour d'expérience dans le %s."
+
+#: admin/partials/xcloner_generate_backups_page.php:410
+msgid "Schedule Saved"
+msgstr "Planification sauvegardée"
+
+#: admin/partials/xcloner_generate_backups_page.php:412
+msgid "(Dismiss this notice."
+msgstr "Cacher cette notification."
+
+#: admin/partials/xcloner_generate_backups_page.php:421
+#: admin/partials/xcloner_scheduled_backups_page.php:26
+msgid "Profile Name"
+msgstr "Nom de profil"
+
+#: admin/partials/xcloner_generate_backups_page.php:429
+msgid "Schedule Backup To Start On:"
+msgstr "Planifier le démarrage de la sauvegarde à:"
+
+#: admin/partials/xcloner_generate_backups_page.php:434
+msgid "At:"
+msgstr "A:"
+
+#: admin/partials/xcloner_generate_backups_page.php:442
+msgid "please select"
+msgstr "merci de sélectionner"
+
+#: admin/partials/xcloner_generate_backups_page.php:453
+msgid "Schedule Frequency"
+msgstr "Planifier la fréquence"
+
+#: admin/partials/xcloner_generate_backups_page.php:460
+msgid "Save Schedule"
+msgstr "Sauvegarde la planification"
+
+#: admin/partials/xcloner_generate_backups_page.php:478
+msgid "Response Code"
+msgstr "Code de réponse"
+
+#: admin/partials/xcloner_generate_backups_page.php:483
+msgid "Close"
+msgstr "Fermer"
+
+#: admin/partials/xcloner_generate_backups_page.php:490
+#: admin/partials/xcloner_manage_backups_page.php:84
+#: admin/partials/xcloner_restore_page.php:513
+msgid "Listing Backup Content "
+msgstr "Liste du contenu de la sauvegarde "
+
+#: admin/partials/xcloner_generate_backups_page.php:505
+#: admin/partials/xcloner_manage_backups_page.php:169
+msgid "Remote Storage Transfer"
+msgstr "Transfert vers le stockage distant"
+
+#: admin/partials/xcloner_generate_backups_page.php:514
+#: admin/partials/xcloner_manage_backups_page.php:181
+msgid "please select..."
+msgstr "merci de sélectionner..."
+
+#: admin/partials/xcloner_generate_backups_page.php:529
+#: admin/partials/xcloner_manage_backups_page.php:195
+msgid "Uploading backup to the selected remote storage..."
+msgstr "Upload de la sauvegarde vers le stockage distant sélectionné..."
+
+#: admin/partials/xcloner_header.php:14 includes/class-xcloner.php:693
+#: includes/class-xcloner.php:694
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+#: admin/partials/xcloner_header.php:18 includes/class-xcloner.php:621
+#: includes/class-xcloner.php:702
+msgid "Settings"
+msgstr "Paramètres"
+
+#: admin/partials/xcloner_header.php:23 includes/class-xcloner.php:709
+#: includes/class-xcloner.php:710
+msgid "Storage Locations"
+msgstr "Emplacements de stockage"
+
+#: admin/partials/xcloner_header.php:27 includes/class-xcloner.php:725
+#: includes/class-xcloner.php:726
+msgid "Schedules & Profiles"
+msgstr "Planifications et profils"
+
+#: admin/partials/xcloner_header.php:31 includes/class-xcloner.php:717
+#: includes/class-xcloner.php:718
+msgid "Manage Backups"
+msgstr "Gestion des sauvegardes"
+
+#: admin/partials/xcloner_header.php:35 includes/class-xcloner.php:733
+#: includes/class-xcloner.php:734
+msgid "Generate Backups"
+msgstr "Générer des sauvegardes"
+
+#: admin/partials/xcloner_header.php:39 includes/class-xcloner.php:741
+#: includes/class-xcloner.php:742
+msgid "Restore Backups"
+msgstr "Restorer des sauvegardes"
+
+#: admin/partials/xcloner_init_page.php:42
+msgid ""
+"Your latest backup is older than 24 hours, please create a new backup to "
+"keep your site protected."
+msgstr ""
+"Votre dernière sauvegarde est plus vieille que 24h, veuillez créer une "
+"nouvelle sauvegarde pour garder votre site protégé."
+
+#: admin/partials/xcloner_init_page.php:53
+msgid ""
+"You have no backup that I could find, please generate a new backup to keep "
+"your site protected."
+msgstr ""
+"Aucune sauvegarde n'a pu etre trouvée, veuillez générer une nouvelle "
+"sauvegarde pour garder votre site protégé."
+
+#: admin/partials/xcloner_init_page.php:64
+msgid "Backup system not ready, please check and fix the issues marked in red"
+msgstr ""
+"Le système de sauvegarde n'est pas pret, veuillez vérifier et résoudre les "
+"problèmes marqués en rouge"
+
+#: admin/partials/xcloner_init_page.php:90
+msgid "Latest Backup"
+msgstr "Dernière sauvegarde"
+
+#: admin/partials/xcloner_init_page.php:101
+msgid "Backup Size"
+msgstr "Taille de la sauvegarde"
+
+#: admin/partials/xcloner_init_page.php:106
+msgid "Backup Date"
+msgstr "Date de la sauvegarde"
+
+#: admin/partials/xcloner_init_page.php:116
+msgid "No Backup Yet"
+msgstr "Aucune sauvegarde"
+
+#: admin/partials/xcloner_init_page.php:121
+msgid "Backup Storage Usage"
+msgstr "Utilisation de stockage de la sauvegarde"
+
+#: admin/partials/xcloner_init_page.php:125
+msgid "Total Size"
+msgstr "Taille totale"
+
+#: admin/partials/xcloner_init_page.php:131
+msgid "Next Scheduled Backup"
+msgstr "Prochaine sauvegarde planifiée"
+
+#: admin/partials/xcloner_init_page.php:147
+#: admin/partials/xcloner_scheduled_backups_page.php:38
+#: admin/partials/xcloner_scheduled_backups_page.php:104
+msgid "Schedule Name"
+msgstr "Nom de la planification"
+
+#: admin/partials/xcloner_init_page.php:155
+msgid "Next Call"
+msgstr "Prochain lancement"
+
+#: admin/partials/xcloner_init_page.php:161
+msgid "Unscheduled"
+msgstr "Non planifiée"
+
+#: admin/partials/xcloner_init_page.php:174
+msgid "Leviia Debugger"
+msgstr "Debugger Leviia"
+
+#: admin/partials/xcloner_init_page.php:209
+msgid "System Check"
+msgstr ""
+
+#: admin/partials/xcloner_init_page.php:223
+msgid "Temporary Location"
+msgstr ""
+
+#: admin/partials/xcloner_init_page.php:229
+msgid "PHP Version Check"
+msgstr ""
+
+#: admin/partials/xcloner_init_page.php:235
+msgid "PHP Safe Mode"
+msgstr ""
+
+#: admin/partials/xcloner_init_page.php:241
+msgid "BACKUP READY"
+msgstr "SAUVEGARDE PRETE"
+
+#: admin/partials/xcloner_init_page.php:241
+msgid "Backup not ready, please check above requirements"
+msgstr "Sauvegarde non prete, veuillez vérifier les conditions ci-dessus"
+
+#: admin/partials/xcloner_init_page.php:248
+msgid "PHP max_execution_time"
+msgstr ""
+
+#: admin/partials/xcloner_init_page.php:252
+msgid "PHP memory_limit"
+msgstr ""
+
+#: admin/partials/xcloner_init_page.php:256
+msgid "PHP open_basedir"
+msgstr ""
+
+#: admin/partials/xcloner_init_page.php:266
+msgid "Reading Time 1MB Block"
+msgstr ""
+
+#: admin/partials/xcloner_init_page.php:270
+msgid "Writing Time 1MB Block"
+msgstr ""
+
+#: admin/partials/xcloner_init_page.php:274
+msgid "Free Disk Space"
+msgstr ""
+
+#: admin/partials/xcloner_init_page.php:281
+msgid "Toggle Additional System Info"
+msgstr ""
+
+#: admin/partials/xcloner_manage_backups_page.php:33
+msgid "Change To Local Storage..."
+msgstr "Changer par un stockage local..."
+
+#: admin/partials/xcloner_manage_backups_page.php:36
+msgid "Change To Remote Storage..."
+msgstr "Changer par un stockage distant..."
+
+#: admin/partials/xcloner_manage_backups_page.php:64
+msgid "Created Time"
+msgstr "Heure de création"
+
+#: admin/partials/xcloner_manage_backups_page.php:65
+msgid "Size"
+msgstr "Taille"
+
+#: admin/partials/xcloner_manage_backups_page.php:66
+#: admin/partials/xcloner_scheduled_backups_page.php:32
+#: admin/partials/xcloner_scheduled_backups_page.php:44
+msgid "Action"
+msgstr "Action"
+
+#: admin/partials/xcloner_manage_backups_page.php:77
+msgid "Delete"
+msgstr "Supprimer"
+
+#: admin/partials/xcloner_manage_backups_page.php:97
+msgid "Backup Content Encryption"
+msgstr "Chiffrement du contenu de la sauvegarde"
+
+#: admin/partials/xcloner_manage_backups_page.php:105
+msgid ""
+"This option will encrypt your backup archive with your current XCloner "
+"Encryption Key."
+msgstr ""
+"Cette option va chiffrer votre archive de sauvegarde avec votre clé de "
+"chiffrement XCloner actuelle."
+
+#: admin/partials/xcloner_manage_backups_page.php:109
+msgid "START ENCRYPTION"
+msgstr "DEMARRER LE CHIFFREMENT"
+
+#: admin/partials/xcloner_manage_backups_page.php:120
+msgid "Backup Content Decryption"
+msgstr "Déchiffrement du contenu de la sauvegarde"
+
+#: admin/partials/xcloner_manage_backups_page.php:128
+msgid ""
+"This option will decrypt your backup archive with your current XCloner "
+"Encryption Key or the key provided below, requires PHP openssl library "
+"installed."
+msgstr ""
+"Cette option va déchiffre votre archive de sauvegarde avec votre clé de "
+"chiffrement XCloner actuelle ou la clé fournie ci-dessous, ceci requiert que "
+"la librairie PHP openssl soit installée."
+
+#: admin/partials/xcloner_manage_backups_page.php:133
+msgid "Decryption Key"
+msgstr "Clé de déchiffrement"
+
+#: admin/partials/xcloner_manage_backups_page.php:137
+msgid "START DECRYPTION"
+msgstr "DEMARRER LE DECHIFFREMENT"
+
+#: admin/partials/xcloner_manage_backups_page.php:150
+msgid "Transfer Remote Backup To Local Storage"
+msgstr "Tranférer la sauvegarde distante vers le sockage local"
+
+#: admin/partials/xcloner_manage_backups_page.php:158
+msgid "Uploading backup to the local storage filesystem..."
+msgstr "Upload de la sauvegarde vers le système de fichier local..."
+
+#: admin/partials/xcloner_manage_backups_page.php:175
+msgid "Send %s to remote storage"
+msgstr "Envoyer %s vers le stockage distant"
+
+#: admin/partials/xcloner_remote_storage_page.php:26
+msgid "Cleanup by Age"
+msgstr "Nettoyer par date"
+
+#: admin/partials/xcloner_remote_storage_page.php:29
+msgid "how many days to keep the backups for"
+msgstr "combien de temps garder les sauvegardes"
+
+#: admin/partials/xcloner_remote_storage_page.php:40
+msgid "Cleanup by Quantity"
+msgstr "Nettoyer par quantité"
+
+#: admin/partials/xcloner_remote_storage_page.php:43
+msgid "how many backup files to keep"
+msgstr "quel nombre de sauvegardes garder"
+
+#: admin/partials/xcloner_remote_storage_page.php:54
+msgid "Cleanup by Capacity(MB)"
+msgstr "Nettoyer par taille (MB)"
+
+#: admin/partials/xcloner_remote_storage_page.php:57
+msgid "delete backup over specified limit"
+msgstr "supprimer les sauvegardes au dessus d'une taille spécifiée"
+
+#: admin/partials/xcloner_remote_storage_page.php:67
+msgid "Keep backups taken on days"
+msgstr "Garder les sauvegardes prises les jours"
+
+#: admin/partials/xcloner_remote_storage_page.php:70
+msgid "days of month, comma separated"
+msgstr "jours du mois, séparés par une virgule"
+
+#: admin/partials/xcloner_restore_page.php:27
+msgid "Restore Script Upload"
+msgstr "Upload du script de restauration"
+
+#: admin/partials/xcloner_restore_page.php:32
+msgid ""
+"If you want to do a <strong>Local Target System Restore</strong>, leave Url "
+"field below empty and click 'Check Connection' button, next steps can be "
+"skipped."
+msgstr ""
+"Si vous voulez faire une <strong>restauration du système cible locale</"
+"strong>, veuillez laisser le champ URL ci-dessous vide et cliquer sur le "
+"bouton 'Vérifier la connexion', les étapes suivantes peuvent etre sautées."
+
+#: admin/partials/xcloner_restore_page.php:34
+msgid ""
+"If you want to do a <strong>Remote Target System Restore</strong>, please "
+msgstr ""
+"Si vous voulez faire une <strong>restauration du système cible distante</"
+"strong>, veuillez"
+
+#: admin/partials/xcloner_restore_page.php:38
+msgid "download the restore script"
+msgstr "télécharger le script de restauration"
+
+#: admin/partials/xcloner_restore_page.php:43
+msgid "Extract the restore script archive files on your new host"
+msgstr ""
+"Extraire les fichiers de l'archive du script de restauration sur votre "
+"nouvel hote"
+
+#: admin/partials/xcloner_restore_page.php:46
+msgid ""
+"Provide url below to the <u>xcloner_restore.php</u> restore script, like "
+"http://my_restore_site.com/xcloner_restore.php"
+msgstr ""
+"Fournir ci-dessous l'url vers le script de restauration <u>xcloner_restore."
+"php</u>, par exemple http://my_restore_site.com/xcloner_restore.php"
+
+#: admin/partials/xcloner_restore_page.php:49
+msgid ""
+"If your server is not web accessible, like a localhost computer, you can use "
+"a DynDNS service or install a blank copy of Wordpress with XCloner in the "
+"same environment and start the restore from there."
+msgstr ""
+"Si votre serveur n'est pas accessible par le web, comme un ordinateur local, "
+"vous pouver utiliser un service DynDNS ou installer une copie vierge de "
+"Wordpress avec XCloner dans le meme environnement et lancer la restauration "
+"depuis là."
+
+#: admin/partials/xcloner_restore_page.php:68
+msgid "Check Connection"
+msgstr "Vérifier la connexion"
+
+#: admin/partials/xcloner_restore_page.php:77
+msgid "Upload Local Backup Archive To Target Host"
+msgstr "Uploader l'archive de sauvegarde local vers l'hote cible"
+
+#: admin/partials/xcloner_restore_page.php:80
+msgid ""
+"You can skip this step if you want to transfer the archive in some other "
+"way, make sure you upload it in the same directory as the restore script "
+"from the previous step."
+msgstr ""
+"Vous pouvez sauter cette étape si vous désirez tranférer l'archive d'une "
+"autre manière, soyez sures de bien l'uploader dans le meme dossier que le "
+"script de restauration de l'étape précédente."
+
+#: admin/partials/xcloner_restore_page.php:85
+msgid "Please select a local backup archive to upload to target host"
+msgstr ""
+"Merci de sélectionner une archive locale de sauvegarde à uploader vers "
+"l'hote cible"
+
+#: admin/partials/xcloner_restore_page.php:105
+msgid "Upload"
+msgstr "Uploader"
+
+#: admin/partials/xcloner_restore_page.php:109
+#: admin/partials/xcloner_restore_page.php:250
+#: admin/partials/xcloner_restore_page.php:378
+msgid "Cancel"
+msgstr "Annuler"
+
+#: admin/partials/xcloner_restore_page.php:114
+#: admin/partials/xcloner_restore_page.php:115
+#: admin/partials/xcloner_restore_page.php:255
+#: admin/partials/xcloner_restore_page.php:257
+#: admin/partials/xcloner_restore_page.php:384
+#: admin/partials/xcloner_restore_page.php:386
+msgid "Skip Next"
+msgstr "Sauter la prochaine étape"
+
+#: admin/partials/xcloner_restore_page.php:124
+msgid "Restore Files Backup Available On Target Location"
+msgstr ""
+"Restaurer les fichiers de sauvegarde disponible sur la localisation cible"
+
+#: admin/partials/xcloner_restore_page.php:130
+msgid "Verbose Output"
+msgstr "Sortie verbeuse"
+
+#: admin/partials/xcloner_restore_page.php:144
+msgid ""
+"This is the directory where you would like to restore the backup archive "
+"files.<br />\n"
+"\t\t\t\t\t\t\t\t\t\tPlease use this with caution when restoring to a live "
+"site."
+msgstr ""
+"Ceci est le dossier dans lequel vous souhaitez restaurer les fichiers "
+"d'archive de sauvegarde<br />\n"
+"\t\t\t\t\t\t\t\t\t\tMerci d'utiliser ceci avec précaution lors de la "
+"restauration d'un site live."
+
+#: admin/partials/xcloner_restore_page.php:148
+msgid "Restore Target Path:"
+msgstr "Emplacement de restauration:"
+
+#: admin/partials/xcloner_restore_page.php:160
+msgid "Click To List The Selected Backup Content"
+msgstr "Cliquer pour lister le contenu de la sauvegarde sélectionnée"
+
+#: admin/partials/xcloner_restore_page.php:163
+msgid "Restore Backup Archive:"
+msgstr "Restauration de l'archive de sauvegarde:"
+
+#: admin/partials/xcloner_restore_page.php:166
+msgid "Please select the target backup file to restore"
+msgstr "Merci de sélectionner le fichier de sauvegarde à restaurer"
+
+#: admin/partials/xcloner_restore_page.php:175
+msgid ""
+"Restore all backup files. Available only when doing a Remote Target System "
+"Restore"
+msgstr ""
+"Restaurer tous les fichiers de sauvegardes. Possible uniquement lors d'une "
+"restauration d'un système cible distant"
+
+#: admin/partials/xcloner_restore_page.php:179
+msgid "Restore All Files"
+msgstr "Restaurer tous les fichiers"
+
+#: admin/partials/xcloner_restore_page.php:185
+msgid "Restore the files only of the wp-content/ folder"
+msgstr "Restaurer uniquement les fichiers du dossier wp-content/"
+
+#: admin/partials/xcloner_restore_page.php:189
+msgid "Only wp-content"
+msgstr "Uniquement wp-content/"
+
+#: admin/partials/xcloner_restore_page.php:195
+msgid "Restore the files only of the wp-content/plugins/ folder"
+msgstr "Restaurer uniquement les fichiers du dossier wp-content/plugins"
+
+#: admin/partials/xcloner_restore_page.php:199
+msgid "Only Plugins"
+msgstr "Uniquement les plugins"
+
+#: admin/partials/xcloner_restore_page.php:205
+msgid "Restore the files only of the wp-content/uploads/ folder only"
+msgstr "Restaurer uniquement les fichiers du dossier wp-content/uploads/"
+
+#: admin/partials/xcloner_restore_page.php:209
+msgid "Only Uploads"
+msgstr "Uniquement les uploads"
+
+#: admin/partials/xcloner_restore_page.php:215
+msgid "Restore the files only of the wp-content/themes/ folder"
+msgstr "Restaurer uniquement les fichiers du dossier wp-content/themes"
+
+#: admin/partials/xcloner_restore_page.php:219
+msgid "Only Themes"
+msgstr "Uniquement les thèmes"
+
+#: admin/partials/xcloner_restore_page.php:225
+msgid ""
+"Restore the database-sql.sql mysql backup from the xcloner-xxxxx/ folder"
+msgstr "Restaurer le fichier Mysql database-sql.sql du dossier xcloner-xxxxx/"
+
+#: admin/partials/xcloner_restore_page.php:229
+msgid "Only Database Backup"
+msgstr "Uniquement la sauvegarde de la base de données"
+
+#: admin/partials/xcloner_restore_page.php:246
+#: admin/partials/xcloner_restore_page.php:373
+msgid "Restore"
+msgstr "Restaurer"
+
+#: admin/partials/xcloner_restore_page.php:266
+msgid "Restore Target Database - Search and Replace"
+msgstr "Restaurer la base de données cible - Chercher et Remplacer"
+
+#: admin/partials/xcloner_restore_page.php:276
+msgid ""
+"Please provide below the mysql connection details for the target host "
+"database.<br />For live sites we recommend using a new separate database."
+msgstr ""
+"Merci de fournir ci-dessous les éléments de connexion Mysql pour la base de "
+"données de l'hote cible.<br/>Pour les sites en ligne, nous recommandons "
+"d'utiliser une nouvelle base de données séparée."
+
+#: admin/partials/xcloner_restore_page.php:279
+msgid "Target Mysql Details"
+msgstr "Details Mysql cible"
+
+#: admin/partials/xcloner_restore_page.php:285
+msgid "Target Mysql Hostname"
+msgstr "Hote"
+
+#: admin/partials/xcloner_restore_page.php:291
+msgid "Target Mysql Database"
+msgstr "Base de données"
+
+#: admin/partials/xcloner_restore_page.php:297
+msgid "Target Mysql Username"
+msgstr "Nom d'utilisateur"
+
+#: admin/partials/xcloner_restore_page.php:304
+msgid "Target Mysql Password"
+msgstr "Mot de passe"
+
+#: admin/partials/xcloner_restore_page.php:311
+msgid ""
+"I will attempt to replace all mysql backup records matching the provided "
+"Source Url with the provided Target Url. <br />Leave blank the Target Url if "
+"you would like to skip this option. <br />As a bonus, I will also replace "
+"all matching serialized data and fix it's parsing."
+msgstr ""
+"Je vais tenter de remplacer tous les enregistrements de sauvegarde Mysql qui "
+"correspondent à l'URL source fournie avec l'URL cible.<br/>Laisser vide "
+"l'URL cible pour sauter cette option.<br/>En bonus, je remplacerai ausi "
+"toutes données sérialisées et fixer leurs analyses."
+
+#: admin/partials/xcloner_restore_page.php:314
+msgid "Target Mysql Search and Replace"
+msgstr "Recherche et remplacement Mysql cible"
+
+#: admin/partials/xcloner_restore_page.php:320
+msgid "Source Home Url"
+msgstr ""
+
+#: admin/partials/xcloner_restore_page.php:326
+msgid "With Target Home Url"
+msgstr ""
+
+#: admin/partials/xcloner_restore_page.php:333
+msgid "Source Site Url"
+msgstr ""
+
+#: admin/partials/xcloner_restore_page.php:339
+msgid "With Target Site Url"
+msgstr ""
+
+#: admin/partials/xcloner_restore_page.php:351
+msgid "Please select the target database backup file to restore"
+msgstr ""
+"Veuillez sélectionner le fichier de sauvegarde de la base de données à "
+"restaurer"
+
+#: admin/partials/xcloner_restore_page.php:364
+msgid ""
+"Use the field below to fix your mysql query and Retry again the Restore, or "
+"replace with # to Skip next"
+msgstr ""
+"Utiliser le champ ci-dessous pour fixer les requetes Mysql et essayer à "
+"nouveau de restaurer, ou rempplacer par # pour sauter à la suivante"
+
+#: admin/partials/xcloner_restore_page.php:397
+msgid "Finishing up..."
+msgstr "En cours de finition..."
+
+#: admin/partials/xcloner_restore_page.php:403
+msgid "Update wp-config.php mysql details and update the Target Site Url"
+msgstr ""
+"Mettre à jour les éléments Mysql du fichier wp-config.php et mettre à jour "
+"l'URL du site cible"
+
+#: admin/partials/xcloner_restore_page.php:421
+msgid "Delete Restored Backup Temporary Folder"
+msgstr "Supprimer le dossier temporaire des sauvegardes restaurées"
+
+#: admin/partials/xcloner_restore_page.php:438
+msgid "Delete Backup Archive"
+msgstr "Supprimer l'archive de sauvegarde"
+
+#: admin/partials/xcloner_restore_page.php:455
+msgid "Delete Restore Script"
+msgstr "Supprimer le script de restauration"
+
+#: admin/partials/xcloner_restore_page.php:489
+msgid "Finish"
+msgstr "Terminer"
+
+#: admin/partials/xcloner_restore_page.php:496
+msgid "Open Target Site"
+msgstr "Ouvrir le site cible"
+
+#: admin/partials/xcloner_scheduled_backups_page.php:10
+msgid ""
+"We have noticed that DISABLE_WP_CRON is disabled, we recommend enabling that "
+"and setting up wp-cron.php to run manually through your hosting account "
+"scheduler as explained <a href=\"%s\" target=\"_blank\">here</a>"
+msgstr ""
+"Nous avons remarqué que DISABLE_WP_CRON est désactivé, nous recommandons de "
+"l'activer et de paramétrer wp-cron.php pour lancer manuellement via votre "
+"planificateur de compte hote comme expliqué <a href=\"%s\" target=\"_blank"
+"\">ici</a>"
+
+#: admin/partials/xcloner_scheduled_backups_page.php:25
+#: admin/partials/xcloner_scheduled_backups_page.php:37
+msgid "ID"
+msgstr "ID"
+
+#: admin/partials/xcloner_scheduled_backups_page.php:27
+#: admin/partials/xcloner_scheduled_backups_page.php:39
+msgid "Recurrence"
+msgstr "Récurrence"
+
+#: admin/partials/xcloner_scheduled_backups_page.php:28
+#: admin/partials/xcloner_scheduled_backups_page.php:40
+msgid "Next Execution"
+msgstr "Prochaine exécution"
+
+#: admin/partials/xcloner_scheduled_backups_page.php:29
+#: admin/partials/xcloner_scheduled_backups_page.php:41
+msgid "Remote Storage"
+msgstr "Stockage distant"
+
+#: admin/partials/xcloner_scheduled_backups_page.php:30
+#: admin/partials/xcloner_scheduled_backups_page.php:42
+msgid "Last Backup"
+msgstr "Dernière sauvegarde"
+
+#: admin/partials/xcloner_scheduled_backups_page.php:31
+#: admin/partials/xcloner_scheduled_backups_page.php:43
+msgid "Status"
+msgstr "Statut"
+
+#: admin/partials/xcloner_scheduled_backups_page.php:54
+msgid "Current Server Time"
+msgstr "Heure courante du serveur"
+
+#: admin/partials/xcloner_scheduled_backups_page.php:69
+msgid "Edit Schedule"
+msgstr "Editer la planification"
+
+#: admin/partials/xcloner_scheduled_backups_page.php:76
+msgid "Off"
+msgstr "Désactivé"
+
+#: admin/partials/xcloner_scheduled_backups_page.php:79
+msgid "On"
+msgstr "Activé"
+
+#: admin/partials/xcloner_scheduled_backups_page.php:89
+msgid "Scheduler Settings"
+msgstr "Paramètres de planification"
+
+#: admin/partials/xcloner_scheduled_backups_page.php:92
+msgid "Advanced"
+msgstr "Avancés"
+
+#: admin/partials/xcloner_scheduled_backups_page.php:125
+msgid "Schedule Start At"
+msgstr "Planification prévue à"
+
+#: admin/partials/xcloner_scheduled_backups_page.php:132
+msgid "Schedule Recurrence"
+msgstr "Récurrence"
+
+#: admin/partials/xcloner_scheduled_backups_page.php:170
+msgid "Delete Local Copy After Transfer"
+msgstr "Supprimer la copie locale après le tranfert"
+
+#: admin/partials/xcloner_scheduled_backups_page.php:182
+msgid "Email Notification Address"
+msgstr "Adresse email de notificaiton"
+
+#: admin/partials/xcloner_scheduled_backups_page.php:210
+msgid "Included Database Data"
+msgstr "Données de base de données inclues"
+
+#: admin/partials/xcloner_scheduled_backups_page.php:219
+msgid "Excluded Files"
+msgstr "Fichiers exclus"
+
+#: admin/partials/xcloner_scheduled_backups_page.php:229
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: includes/class-xcloner.php:605
+msgid ""
+"OneDrive successfully authenticated, please click <a href=\"%s\">here</a> to "
+"continue"
+msgstr ""
+
+#: includes/class-xcloner.php:656
+msgid "Once Weekly"
+msgstr "Une fois par semaine"
+
+#: includes/class-xcloner.php:662
+msgid "Once Monthly"
+msgstr "Une fois par mois"
+
+#: includes/class-xcloner.php:668
+msgid "Twice Daily"
+msgstr "Deux fois par jour"
+
+#: includes/class-xcloner.php:681 includes/class-xcloner.php:682
+msgid "Leviia Backup"
+msgstr "Sauvegarde Leviia"
+
+#: includes/class-xcloner.php:701
+msgid "Backup Settings"
+msgstr "Paramètres de sauvegarde"
